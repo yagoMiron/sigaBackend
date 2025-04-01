@@ -1,4 +1,3 @@
-export class JogosController {}
 import {
   Controller,
   Get,
@@ -11,7 +10,7 @@ import {
 import { JogosService } from './jogos.service';
 
 @Controller('jogos')
-export class DisciplinasController {
+export class JogosController {
   constructor(private readonly jogosService: JogosService) {}
   @Post()
   create(@Body() body: any) {
