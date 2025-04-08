@@ -22,6 +22,7 @@ model Usuario {
   professor Professor?
   estudante Estudante?
   jogos JogoDaVelha[]
+  @@map("usuarios")
 }
 model Professor {
   fk_usuarios_id Int @id
