@@ -6,7 +6,7 @@ async function main() {
     data: [
       {
         id: 2,
-        cpf: "111111211111",
+        cpf: "11111111111",
         foto: "93b163f73780fecd32914da83a2b4a15.avif",
         email: "aurelio@gmail.com",
         data_nascimento: new Date("2023-06-14"),
